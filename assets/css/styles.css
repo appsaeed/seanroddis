@@ -2418,6 +2418,7 @@ li .fa {
 }
 
 .mh-fixed-nav {
+  background: #fff;
   position: fixed;
   top: 0;
   left: 0;
