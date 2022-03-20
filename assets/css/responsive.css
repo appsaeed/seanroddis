@@ -40,6 +40,15 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .xs-column-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .section-separator {
     padding: 40px 0;
   }
@@ -293,12 +302,14 @@
   }
   .mh-home .mh-header-info {
     padding: 0;
+    text-align: center;
+    margin-top: 40px;
   }
   .mh-header {
     padding: 10px 0;
   }
   .home-padding {
-    padding: 100px 0;
+    padding: 100px 0 20px 0 !important;
   }
   .mh-about .mh-about-inner {
     padding-left: 5px;
@@ -340,6 +351,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .xs-column-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .mh-blog .mh-blog-item {
     text-align: center;
   }
@@ -451,7 +471,7 @@
     padding: 0;
   }
   .home-padding {
-    padding: 100px 0;
+    padding: 100px 0 20px 0 !important;
   }
   .mh-home .hero-img {
     margin-bottom: 30px;
